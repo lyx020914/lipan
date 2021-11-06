@@ -8,7 +8,7 @@ typedef struct LNode
 	struct LNode *next;		//指向后继结点
 } LinkNode;					//声明单链表结点类型
 
-void CreateListR(LinkNode *&L,ElemType a[],int n)  //尾插法建立单链表
+void CreateListR(LinkNode *&L,ElemType a[],int n)  //尾插法建立单链
 {
 	LinkNode *s,*r;
 	L=(LinkNode *)malloc(sizeof(LinkNode));  	//创建头结点
